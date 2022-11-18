@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="icon" type="image/x-icon" href="/images/favicom.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Registration Form</title>
+</head>
+<body>
+    <h3><u>Student Registration Form</u></h3>
+ <div class="a">
+   <form autocomplete="on">
+        First Name:      
+        <div class="b28 b1"><input type="text" name="first name" size="80" placeholder="Enter your first name" minlength="3" maxlength="6" required></div><br><br>
+        Last Name: 
+        <div class="b28 b1"><input type="text" name="last name" size="80" placeholder="Enter your last name" minlength="3" maxlength="6" required></div><br><br>
+        Email:      
+        <div class="b28 b2"><input type="email" size="80" placeholder="It should contain @.." required></div><br><br>
+        Mobile:
+        <div class="b28 b3"><input type="number" size="100" placeholder="Only 10 digits are allowed"  maxlength="10" required></div><br><br>
+        Gender:
+        <div class="b28 b4"><input type="radio" id="male" name="Gender" value="male">
+        <label for="male">male</label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label></div><br><br>
+        Date of Birth:
+        <div class="b28 b5"><input type="date" required></div><br><br>
+        Address:
+        <div class="b28 b6"><textarea size="160" style="width:300px; height:150px;" required></textarea></div><br><br>
+        City:
+        <div class="b28 b7"><input type="text" size="80" required></div><br><br>
+        Area Pin:
+        <div class="b28 b8"><input type="text" size="80" required></div><br><br>
+        State:
+        <div class="b28 b9"><input type="text" size="80" required></div><br><br>
+        Qualification:
+        <div class="b28 b10"><select id="Education" name="Education">
+         <option value="BE">BE</option></div>
+            <option value="BSC">BSC</option>
+            <option value="BCOM">BCOM</option>
+            <option value="BCA">BCA</option>
+          </select><br><br></div>
+        Specialization:
+        <div class="b28 b11"><input type="checkbox"><label for="computer science">Computer scirnce</label><br></div>
+        <div class="b28 b12"><input type="checkbox"><label for="information technology">Information technology</label><br></div>
+        <div class="b28 b12"><input type="checkbox"><label for="computer architecture">Computer architecture</label><br></div>
+        <div class="b28 b12"><input type="checkbox"><label for="tele communication">Tele communication</label><br></div>
+        Password:
+        <div class="b28 b13"><input type="password" size="80" required><br></div>
+        <button>Registered</button>
+        
+    </form>
+ </div>
+</body>
+</html>
