@@ -1,0 +1,28 @@
+.box{
+ margin: 100px 0px 0px 500px;
+ box-shadow: 1px 1px 20px grey;
+ width: 430px;
+ height: 400px;
+ 
+}
+
+.form-control{
+  width: 400px;
+}
+
+
+
+p .fa{
+font-size: 20px;
+margin-left: 250px;
+cursor: pointer;
+}
+
+.Hline{
+  width: 400px;
+}
+
+p{
+  margin-top:20px;
+}
+
